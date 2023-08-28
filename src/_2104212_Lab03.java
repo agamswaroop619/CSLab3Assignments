@@ -1,9 +1,9 @@
 import java.util.Random;
 
-public class _2104373_Lab03 {
+public class _2104212_Lab03 {
     private String[] randomStringsArray;
 
-    public _2104373_Lab03() {
+    public _2104212_Lab03() {
         // Generate an array of N random strings
 
         int N = (int) (Math.random() * 100);
@@ -54,7 +54,7 @@ public class _2104373_Lab03 {
     }
 
     public static void main(String[] args) {
-        _2104373_Lab03 lab = new _2104373_Lab03();
+        _2104212_Lab03 lab = new _2104212_Lab03();
 
         int TIMES = 1000000; // Change TIMES to the desired number of repetitions
         long timeMethod1 = lab.method1(lab.randomStringsArray, TIMES);
